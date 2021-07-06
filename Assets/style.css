@@ -19,10 +19,6 @@
   text-align: center;
 }
 
-.center {
-  text-align: center;
-}
-
 header {
   height: 100%;
   background-color: transparent;
@@ -56,7 +52,7 @@ a:active {
 }
 
 /* Makes rows for the web skeleton*/
-.container { 
+.column3 { 
   display: flex;
   flex-wrap: wrap;
 }
@@ -65,6 +61,7 @@ a:active {
   background: transparent;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .gray {
@@ -74,27 +71,15 @@ a:active {
 
 .blue {
   background: steelblue;
+  text-align: center;
 }
 
-.container div {
+.column3 div {
   font-size: 16px;
   padding: 10px;
   margin: 10px;
   flex: 1;
   align-items: center;
-}
-
-.button {
-  background-color: rgb(233, 200, 255);
-  width: 80px;
-  height: 80px;
-  border-radius: 100%;
-  text-align: center;
-  font-size: 14px;
-  font-family: cursive, 'Times New Roman', Times, serif;
-  border-style: dashed;
-  border-color: rgb(155, 255, 250);
-  border-width: 2px;
 }
 
 .glow-on-hover {
@@ -173,6 +158,8 @@ div[class*=box] {
   text-align: center;
   width: 250px;
   cursor: pointer;
+  font-size: 48px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .btn-two {
