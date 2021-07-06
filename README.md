@@ -21,3 +21,7 @@ https://creativecommons.org/licenses/by/4.0/
 - Link to a Map of Gunnison.
 - Links to projects on the page.
 - Link to directly E-mail me.
+
+## Screenshot
+![image](https://user-images.githubusercontent.com/85036414/124665056-7fae6500-de69-11eb-857b-0f8c69c51c07.png)
+
