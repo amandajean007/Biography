@@ -1,0 +1,223 @@
+.name {
+  text-align: center;
+  height: auto;
+  padding-top: .3em;
+  padding-bottom: .3em;
+}
+
+.flowers {
+  background-image: url(..//Assets/snowy\ mountain.jpg);
+  background-attachment: fixed;
+}
+
+.photo {
+  margin: 10px;
+  border: 10px;
+  border-color: rgb(201, 49, 143);
+  border-style: double;
+  padding: 10px;
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}
+
+header {
+  height: 100%;
+  background-color: transparent;
+  opacity: 60%;
+  border-bottom-color: blueviolet;
+  border-width: 10px;
+}
+
+/* unvisited link */
+a:link {
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+}
+
+/* visited link */
+a:visited {
+  color: purple;
+  text-decoration: underline;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+  text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+  text-decoration:underline;
+}
+
+/* Makes rows for the web skeleton*/
+.container { 
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.red {
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+}
+
+.gray {
+  background: dark darkslategray;
+  text-align: center;
+}
+
+.blue {
+  background: steelblue;
+}
+
+.container div {
+  font-size: 16px;
+  padding: 10px;
+  margin: 10px;
+  flex: 1;
+  align-items: center;
+}
+
+.button {
+  background-color: rgb(233, 200, 255);
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 14px;
+  font-family: cursive, 'Times New Roman', Times, serif;
+  border-style: dashed;
+  border-color: rgb(155, 255, 250);
+  border-width: 2px;
+}
+
+.glow-on-hover {
+  width: 220px;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+}
+
+.glow-on-hover:before {
+  content: '';
+  background: linear-gradient(45deg, #00eeff, #6200ff, #c300ff, #ff00f2, #c300ff, #6200ff, #00eeff);
+  position: absolute;
+  top: -2px;
+  left:-2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  border-radius: 10px;
+}
+
+.glow-on-hover:active {
+  color: rgb(0, 0, 0)
+}
+
+.glow-on-hover:active:after {
+  background: transparent;
+}
+
+.glow-on-hover:hover:before {
+  opacity: 1;
+}
+
+.glow-on-hover:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
+}
+
+@import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
+
+div[class*=box] {
+  height: 33.33%;
+  width: 100%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  line-height: 50px;
+  height: 50px;
+  text-align: center;
+  width: 250px;
+  cursor: pointer;
+}
+
+.btn-two {
+  color: rgb(0, 0, 0);
+  transition: all 0.5s;
+  position: relative; 
+}
+.btn-two span {
+  z-index: 2;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.btn-two::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.5s;
+  border: 1px solid rgba(255,255,255,0.2);
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.btn-two::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.5s;
+  border: 1px solid rgba(255,255,255,0.2);
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.btn-two:hover::before {
+  transform: rotate(-23deg);
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.btn-two:hover::after {
+  transform: rotate(23deg);
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+
