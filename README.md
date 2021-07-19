@@ -1,4 +1,4 @@
-# Homework 2 - Student Biography
+# Student Biography
 ## Description
 The motivation behind this project was to create a student portfolio where I can put all my work from this class to show potential employers my capabilities. I learned a lot including how to build a skeleton layout for your website with containers and how make cool buttons including a ✉️mail:to!
 
