@@ -4,6 +4,16 @@
   height: auto;
   padding-top: 10px;
   padding-bottom: 10px;
+  font-family: 'WindSong', cursive;
+  font-size: 48px;
+  color: #111;
+  background: rgba(255, 255, 255, 0.226);
+  width: auto;
+}
+
+.paragraph {
+  background-color: rgba(255, 255, 255, 0.60);
+  padding: 20px;
 }
 
 /*Sets background photo*/
@@ -18,7 +28,7 @@
 .photo {
   margin: 10px;
   border: 10px;
-  border-color: rgb(201, 49, 143);
+  border-color: rgba(0, 0, 0, 0.774);
   border-style: double;
   padding: 10px;
   text-align: center;
@@ -28,7 +38,6 @@
 header {
   height: 100%;
   background-color: transparent;
-  opacity: 60%;
   border-bottom-color: blueviolet;
   border-width: 10px;
 }
@@ -36,25 +45,23 @@ header {
 /* unvisited link */
 a:link {
   color: rgb(0, 0, 0);
-  text-decoration: underline;
+  font-style: none;
 }
 
 /* visited link */
 a:visited {
-  color: purple;
-  text-decoration: underline;
+  color: rgb(0, 0, 0);
 }
 
 /* mouse over link */
 a:hover {
-  color: hotpink;
-  text-decoration: underline;
+  color: rgb(0, 0, 0);
+  font-size: 72px;
 }
 
 /* selected link */
 a:active {
-  color: blue;
-  text-decoration:underline;
+  color: rgb(0, 0, 0);
 }
 
 /* Makes rows for the web skeleton*/
@@ -81,10 +88,10 @@ a:active {
 
 /*Creates a blue-background box*/
 .content {
-  background: rgba(221, 61, 221, 0.425);
+  background: rgba(255, 255, 255, 0.226);
   text-align: center;
-  color: #fff;
-  font-size: 75px;
+  color: rgb(0, 0, 0);
+  font-family: 'Playfair Display', serif;
 }
 
 /*Creates three even columns*/
@@ -111,11 +118,11 @@ a:active {
 
 .glow-on-hover:before {
   content: '';
-  background: linear-gradient(45deg, #00eeff, #6200ff, #c300ff, #ff00f2, #c300ff, #6200ff, #00eeff);
+  background: linear-gradient(45deg, #00ff62, #ff00bf, #00ff62, #ff00bf, #00ff62, #ff00bf, #00ff62);
   position: absolute;
   top: -2px;
   left:-2px;
-  background-size: 400%;
+  background-size: 800%;
   z-index: -1;
   filter: blur(5px);
   width: calc(100% + 4px);
@@ -125,11 +132,9 @@ a:active {
   transition: opacity .3s ease-in-out;
   border-radius: 10px;
 }
-
 .glow-on-hover:active {
   color: rgb(0, 0, 0)
 }
-
 .glow-on-hover:active:after {
   background: transparent;
 }
@@ -173,12 +178,12 @@ div[class*=box] {
   width: 250px;
   cursor: pointer;
   font-size: 48px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'WindSong', cursive;
 }
 
 .btn-two {
   color: rgb(0, 0, 0);
-  transition: all 0.5s;
+  transition: all 0.1s;
   position: relative; 
 }
 .btn-two span {
@@ -197,7 +202,6 @@ div[class*=box] {
   height: 100%;
   z-index: 1;
   transition: all 0.5s;
-  border: 1px solid rgba(255,255,255,0.2);
   background-color: rgba(0, 0, 0, 0.1);
 }
 .btn-two::after {
@@ -209,16 +213,15 @@ div[class*=box] {
   height: 100%;
   z-index: 1;
   transition: all 0.5s;
-  border: 1px solid rgba(255,255,255,0.2);
   background-color: rgba(0, 0, 0, 0.1);
 }
 .btn-two:hover::before {
   transform: rotate(-23deg);
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(212, 0, 255, 0.1);
 }
 .btn-two:hover::after {
   transform: rotate(23deg);
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(212, 0, 255, 0.1);
 }
 
 .center {
@@ -238,7 +241,7 @@ div[class*=box] {
   border-radius: 100%;
   text-align: center;
   font-size: 14px;
-  font-family: cursive, 'Times New Roman', Times, serif;
+  font-family: 'WindSong', cursive;
   border-style: dashed;
   border-color: rgb(155, 255, 250);
   border-width: 2px;
