@@ -7,18 +7,28 @@
   font-family: 'WindSong', cursive;
   font-size: 48px;
   color: #111;
-  background: rgba(255, 255, 255, 0.226);
   width: auto;
+  background-color: rgba(255, 255, 255, 0.267);
 }
 
 .paragraph {
   background-color: rgba(255, 255, 255, 0.60);
   padding: 20px;
+  margin-top: 0%;
+  margin-bottom: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.aboutMe {
+  background-color: rgba(255, 255, 255, 0.60);
+  padding: 20px;
+  margin-top: 0%;
 }
 
 /*Sets background photo*/
 .flowers {
-  background-image: url(..//Assets/bee.jpg);
+  background-image: url(../Assets/bee.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-position-y: center;
@@ -45,7 +55,6 @@ header {
 /* unvisited link */
 a:link {
   color: rgb(0, 0, 0);
-  font-style: none;
 }
 
 /* visited link */
@@ -56,7 +65,6 @@ a:visited {
 /* mouse over link */
 a:hover {
   color: rgb(0, 0, 0);
-  font-size: 72px;
 }
 
 /* selected link */
@@ -88,17 +96,17 @@ a:active {
 
 /*Creates a blue-background box*/
 .content {
-  background: rgba(255, 255, 255, 0.226);
   text-align: center;
   color: rgb(0, 0, 0);
   font-family: 'Playfair Display', serif;
+  background-color: rgba(255, 255, 255, 0.267);
 }
 
 /*Creates three even columns*/
 .column3 div {
   font-size: 16px;
   padding: 10px;
-  margin: 10px;
+  
   flex: 1;
   align-items: center;
 }
@@ -163,66 +171,6 @@ a:active {
 
 @import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
 
-div[class*=box] {
-  height: 33.33%;
-  width: 100%; 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.btn {
-  line-height: 50px;
-  height: 50px;
-  text-align: center;
-  width: 250px;
-  cursor: pointer;
-  font-size: 48px;
-  font-family: 'WindSong', cursive;
-}
-
-.btn-two {
-  color: rgb(0, 0, 0);
-  transition: all 0.1s;
-  position: relative; 
-}
-.btn-two span {
-  z-index: 2;
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-.btn-two::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  transition: all 0.5s;
-  background-color: rgba(0, 0, 0, 0.1);
-}
-.btn-two::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  transition: all 0.5s;
-  background-color: rgba(0, 0, 0, 0.1);
-}
-.btn-two:hover::before {
-  transform: rotate(-23deg);
-  background-color: rgba(212, 0, 255, 0.1);
-}
-.btn-two:hover::after {
-  transform: rotate(23deg);
-  background-color: rgba(212, 0, 255, 0.1);
-}
 
 .center {
   text-align: center;
@@ -235,13 +183,13 @@ div[class*=box] {
 }
 
 .button {
-  background-color: rgb(233, 200, 255);
-  width: 80px;
-  height: 80px;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 60px;
+  height: 60px;
   border-radius: 100%;
   text-align: center;
   font-size: 14px;
-  font-family: 'WindSong', cursive;
+  font-family: 'Roboto Slab', serif;
   border-style: dashed;
   border-color: rgb(155, 255, 250);
   border-width: 2px;
