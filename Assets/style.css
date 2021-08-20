@@ -44,6 +44,14 @@
   text-align: center;
 }
 
+.blue {
+  border-radius: 100%;
+  border-bottom-style: dotted;
+  border-color: cornflowerblue;
+  border-width: 30px;
+  border-style: double;
+}
+
 /*Creates the box size and styles the header*/
 header {
   height: 100%;
