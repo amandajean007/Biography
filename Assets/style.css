@@ -8,27 +8,17 @@
   font-size: 48px;
   color: #111;
   width: auto;
-  background-color: rgba(255, 255, 255, 0.267);
-}
-
-.paragraph {
-  background-color: rgba(255, 255, 255, 0.60);
-  padding: 20px;
-  margin-top: 0%;
-  margin-bottom: 10%;
-  margin-left: 20%;
-  margin-right: 20%;
 }
 
 .aboutMe {
-  background-color: rgba(255, 255, 255, 0.60);
   padding: 20px;
   margin-top: 0%;
+font-size: 36px;
 }
 
 /*Sets background photo*/
 .flowers {
-  background-image: url(../Assets/bee.jpg);
+  background-image: url(../Assets/IMG_0264-copy2.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-position-y: center;
@@ -42,14 +32,6 @@
   border-style: double;
   padding: 10px;
   text-align: center;
-}
-
-.blue {
-  border-radius: 100%;
-  border-bottom-style: dotted;
-  border-color: cornflowerblue;
-  border-width: 30px;
-  border-style: double;
 }
 
 /*Creates the box size and styles the header*/
@@ -107,14 +89,11 @@ a:active {
   text-align: center;
   color: rgb(0, 0, 0);
   font-family: 'Playfair Display', serif;
-  background-color: rgba(255, 255, 255, 0.267);
 }
 
 /*Creates three even columns*/
 .column3 div {
   font-size: 16px;
-  padding: 10px;
-  
   flex: 1;
   align-items: center;
 }
@@ -134,7 +113,7 @@ a:active {
 
 .glow-on-hover:before {
   content: '';
-  background: linear-gradient(45deg, #00ff62, #ff00bf, #00ff62, #ff00bf, #00ff62, #ff00bf, #00ff62);
+  background: linear-gradient(45deg, #e5ff008e, #ffa60083, #ff7b0080, #ff000083, #ff008880, #1900ff7e, #00ff62);
   position: absolute;
   top: -2px;
   left:-2px;
