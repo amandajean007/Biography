@@ -13,12 +13,11 @@
 .aboutMe {
   padding: 20px;
   margin-top: 0%;
-font-size: 36px;
 }
 
 /*Sets background photo*/
 .flowers {
-  background-image: url(../Assets/IMG_0264-copy2.jpg);
+  background-image: url(../Assets/IMG_0264-copy3.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-position-y: center;
