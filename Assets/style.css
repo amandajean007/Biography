@@ -180,3 +180,9 @@ a:active {
   border-color: rgb(155, 255, 250);
   border-width: 2px;
 }
+
+.paragraph {
+  align-items: center;
+  justify-content: center;
+  vertical-align: center;
+}
