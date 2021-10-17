@@ -5,7 +5,7 @@
   padding-top: 10px;
   padding-bottom: 10px;
   font-family: 'WindSong', cursive;
-  font-size: 48px;
+  font-size: 72px;
   color: #111;
   width: auto;
 }
@@ -17,7 +17,7 @@
 
 /*Sets background photo*/
 .flowers {
-  background-image: url(../Assets/IMG_0264-copy3.jpg);
+  background-image: url(../IMG_0264-copy3.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-position-y: center;
