@@ -18,7 +18,6 @@ CC0-1.0, CC-BY-4.0,
 https://creativecommons.org/licenses/by/4.0/
 
 ## Features
-- Link to a Map of Gunnison.
 - Links to projects on the page.
 - Link to directly E-mail me.
 
