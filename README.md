@@ -23,5 +23,4 @@ https://creativecommons.org/licenses/by/4.0/
 - Link to directly E-mail me.
 
 ## Screenshot
-![image](https://user-images.githubusercontent.com/85036414/124665056-7fae6500-de69-11eb-857b-0f8c69c51c07.png)
-
+![screenshot of page](https://user-images.githubusercontent.com/85036414/137736487-440c747c-3d32-43f1-b01f-665be1c6fb04.PNG)
