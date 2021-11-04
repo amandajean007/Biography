@@ -17,7 +17,7 @@
 
 /*Sets background photo*/
 .flowers {
-  background-image: url(../IMG_0264-copy3.jpg);
+  background-image: url(../background.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-position-y: center;
