@@ -4,7 +4,7 @@
   height: auto;
   padding-top: 10px;
   padding-bottom: 10px;
-  font-family: 'WindSong', cursive;
+  font-family: 'Oswald', sans-serif;
   font-size: 72px;
   color: #111;
   width: auto;
@@ -17,7 +17,7 @@
 
 /*Sets background photo*/
 .flowers {
-  background-image: url(../background.jpg);
+  background-image: url(pexels-tim-mossholder-2470967.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-position-y: center;
@@ -27,8 +27,6 @@
 .photo {
   margin: 10px;
   border: 10px;
-  border-color: rgba(0, 0, 0, 0.774);
-  border-style: double;
   padding: 10px;
   text-align: center;
 }
@@ -37,7 +35,7 @@
 header {
   height: 100%;
   background-color: transparent;
-  border-bottom-color: blueviolet;
+  border-bottom-color: #13017a;
   border-width: 10px;
 }
 
@@ -87,7 +85,7 @@ a:active {
 .content {
   text-align: center;
   color: rgb(0, 0, 0);
-  font-family: 'Playfair Display', serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 /*Creates three even columns*/
@@ -112,7 +110,7 @@ a:active {
 
 .glow-on-hover:before {
   content: '';
-  background: linear-gradient(45deg, #e5ff008e, #ffa60083, #ff7b0080, #ff000083, #ff008880, #1900ff7e, #00ff62);
+  background: linear-gradient(45deg, #00ffd5, #00ccff, #0099ff, #0400ff, #0099ff, #00ccff, #00ffd5);
   position: absolute;
   top: -2px;
   left:-2px;
@@ -175,7 +173,7 @@ a:active {
   border-radius: 100%;
   text-align: center;
   font-size: 14px;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Oswald', sans-serif;
   border-style: dashed;
   border-color: rgb(155, 255, 250);
   border-width: 2px;
